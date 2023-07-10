@@ -37,7 +37,7 @@ input {
 }
 
 .code-display {
-  width: 96%;
+  width: 95%;
   margin: 2%;
   height: 46%;
   border-radius: 8px;
@@ -74,7 +74,7 @@ input {
 }
 
 .messages-display {
-  width: 96%;
+  width: 97%;
   margin: 2%;
   height: 46%;
   margin: 10px;
@@ -97,7 +97,32 @@ p#icon {
 
 input {
   border-radius: 5px;
-  width: 95%;
+  border: solid var(--bgc-dark) 1px;
+  box-sizing: border-box;
   margin: 0 12px;
+  padding: 16px;
   background-color: var(--bgc-light-contrast);
+}
+
+.button-container {
+  margin: 2%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-container button {
+  text-transform: uppercase;
+  padding: 7px;
+  border: none;
+  margin: 1px;
+}
+
+button#get-query {
+  border-radius: 15px 0 0 15px;
+  background-color: var(--bgc-main);
+}
+
+button#clear-chat {
+  border-radius: 0 15px 15px 0;
+  background-color: var(--bgc-main);
 }
