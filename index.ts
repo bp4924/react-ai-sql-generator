@@ -11,8 +11,6 @@ const app: Application = express();
 app.use(cors());
 app.use(express.json());
 
-//const API_KEY: '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'
-
 const API_KEY = process.env.API_KEY;
 //console.log(API_Key);
 
