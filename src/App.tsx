@@ -3,6 +3,7 @@ import MessagesDisplay from "./components/MessagesDisplay";
 
 const App = () => {
   const getQuery = async () => {
+    console.log("called getQuery");
     try {
       const options = {
         method: "POST",
